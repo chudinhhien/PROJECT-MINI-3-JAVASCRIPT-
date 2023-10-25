@@ -1,0 +1,4 @@
+.category .list-products .item-product {
+    width: calc( 100%/8 - 5px );
+    height: auto;
+}
