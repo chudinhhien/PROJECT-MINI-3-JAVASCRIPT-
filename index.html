@@ -13,6 +13,28 @@
         </div>
     </div>
 
+    <div class="products">
+        <h3 class="inner-title">Danh sách sản phẩm</h3>
+        <div class="search">
+            <input type="text" placeholder="Nhập từ khóa tìm kiếm" id="search">
+            <span class="search-btn" id="search-btn">
+                <button>Tìm kiếm</button>
+            </span>
+        </div>
+        <select name="" id="sort-product">
+            <option value="default">Mặc định</option>
+            <option value="asc">Giá thấp đến cao</option>
+            <option value="desc">Giá cao đến thấp</option>
+            <option value="discount">Giảm giá nhiều</option>
+        </select>
+        <div class="list-products" id="list-products"></div>
+    </div>
+
+    <div class="paginate">
+        <button class="prev" id="prev">Prev</button>
+        <div class="page" id="page">1</div>
+        <button class="next" id="next">Next</button>
+    </div>
     <script type="module" src="./main.js"></script>
 </body>
 </html>
